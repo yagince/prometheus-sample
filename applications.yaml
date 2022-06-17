@@ -6,8 +6,9 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: git@github.com:yagince/prometheus-sample.git
+    repoURL: https://github.com/yagince/prometheus-sample.git
     targetRevision: master
+    path: "./"
   destination:
     server: https://kubernetes.default.svc
     namespace: argocd
